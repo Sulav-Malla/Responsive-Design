@@ -1,0 +1,21 @@
+.navigation_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation_bar > div {
+  display: flex;
+  gap: 2rem;
+}
+
+@media (min-width: 1200px) {
+  .navigation_bar {
+    color: aqua;
+  }
+}
+
+@media (max-width: 600px) {
+  /* navigation bar should be vertical */
+}

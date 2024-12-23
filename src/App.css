@@ -17,5 +17,7 @@
 }
 
 @media (max-width: 600px) {
-  /* navigation bar should be vertical */
+  .navigation_bar {
+    flex-direction: column;
+  }
 }
